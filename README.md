@@ -5,4 +5,3 @@ Somehow I've never actually tried just building a simple site and server. Going 
 - Have a landing page with some buttons, navigate you around on button presses
 - Add some interactivity to a page - maybe a calculator? Chance to play with some old fashioned JS
 - Make something with some persistent state - keep it super simple at first, maybe just write values to a csv or json file on the server. Just want to post and get updates on different clients
-- 
