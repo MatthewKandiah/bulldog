@@ -18,7 +18,7 @@ async fn main() -> std::io::Result<()> {
         App::new()
             .route("/", web::get().to(hello))
             .route("/hey", web::get().to(hey))
-            .service(actix_files::Files::new("/static", "../sources").show_files_listing())
+            .service(actix_files::Files::new("/frontend", "../frontend").show_files_listing())
     })
     .bind(("127.0.0.1", 8080))?
     .run()
