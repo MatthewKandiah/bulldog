@@ -7,4 +7,9 @@ Somehow I've never actually tried just building a simple site and server. Going 
 - apply ideas from tutorial to build a calculator with your calculation history displayed
 - make an index page with a menu of buttons to navigate to the other pages
 
-If we get that far, maybe we'll try something a little more ambitious
+If we get that far, maybe we'll try something a little more ambitious. Some ideas:
+- extend the todo list to have account creation, authentication, and a database that stores your todo list items across sessions
+- play with setting up an audio graph for audio recording and playback
+- similar idea but for video
+- set up a web worker to apply some real-time transformation to a media stream -> turn video monochrome / apply noise cancellation to audio 
+
